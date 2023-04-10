@@ -1,0 +1,53 @@
+@font-face {font-family: "RDRLino";
+    src: url("https://db.onlinewebfonts.com/t/ab21a97b9cae2e116d8d1473baefc9f0.eot");
+    src: url("https://db.onlinewebfonts.com/t/ab21a97b9cae2e116d8d1473baefc9f0.eot?#iefix") format("embedded-opentype"),
+         url("https://db.onlinewebfonts.com/t/ab21a97b9cae2e116d8d1473baefc9f0.woff2") format("woff2"),
+         url("https://db.onlinewebfonts.com/t/ab21a97b9cae2e116d8d1473baefc9f0.woff") format("woff"),
+         url("https://db.onlinewebfonts.com/t/ab21a97b9cae2e116d8d1473baefc9f0.ttf") format("truetype"),
+         url("https://db.onlinewebfonts.com/t/ab21a97b9cae2e116d8d1473baefc9f0.svg#RDR Lino") format("svg");
+}
+
+body {
+    display: none;
+    margin:0;
+    padding:0;
+    width: 1vw;
+    height: 1vh;
+}
+#eye {
+    position: absolute;
+    background: url(img/eye.png) center center no-repeat;
+    width: 3vw;
+    height: 3vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    opacity: .45;
+}
+.active {
+    opacity: .95 !important;
+}
+#label {
+    position: absolute;
+    height: 3vh;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 6vh;
+    font-size: 1.25rem;
+    font-family: "RDRLino";
+    text-align: center;
+    text-shadow: 0.2vh 0.15vh 0px #000;
+    color: #fff;
+}
+#coords {
+    position: absolute;
+    height: 3vh;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 3vh;
+    font-size: 1.25rem;
+    font-family: "RDRLino";
+    text-align: center;
+    text-shadow: 0.2vh 0.15vh 0px #000;
+    color: #fff;
+}
